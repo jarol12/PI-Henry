@@ -1,0 +1,73 @@
+*{
+   font-family:  'Gotham';
+}
+.container{
+    background-image: repeating-linear-gradient(to top,rgb(0, 0, 0),rgb(0, 0, 0),rgba(2, 2, 2,0.7));
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-bottom: 20px;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+}
+
+  
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+.form {
+  border: 2px solid white;
+  color: white;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+  margin-top: 120px;
+  font-size: 1.2em;
+  font-weight: 600;
+  
+}
+
+  
+  .form fieldset {
+    border: none;
+  }
+
+ 
+
+  
+  .form label {
+    display: block;
+
+  }
+  
+ 
+
+
+  select {
+    padding: 5px;
+    color: #000;
+    font-size: 12px;
+    background: transparent;
+    --webkit-appearance: none;
+
+}
+select option{
+background-color: rgba(255, 255, 255);
+color: #000;
+}
+  
+  
+  .form input[type=submit]{
+    bottom: -20px;
+    color: black;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  

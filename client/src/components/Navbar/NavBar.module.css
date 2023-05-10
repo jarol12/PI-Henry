@@ -1,0 +1,106 @@
+.logo{
+position: absolute;
+top: 30px;
+left: 30px;
+font-size: 3rem;
+color: white;
+}
+
+.home{
+  position: absolute;
+  right: 50px;
+  font-size: 30px;
+  top: 35px;
+}
+.none{
+  display: none;
+}
+.topnav {
+    height:100px;
+    width: 100%;
+   position: absolute;
+   z-index: 3;
+
+  }
+  
+  .input_wrapper {
+    position: relative;
+    width: 70%;
+    top: 30px;
+    left: 130px;
+
+  }
+  body{
+  margin: 0;
+
+  }
+  
+  .input {
+    box-sizing: border-box;
+    color: #ffffff;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+    outline: none; 
+    border: none;
+    border-radius: 200px;
+    background-color: #58585875;
+
+  }
+  
+  
+  .input_icon {
+    color: #c9c9c9;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 140px;
+    top: 50%;
+    transform: translateY(-38%);
+  }
+  
+
+  @media (max-width: 943px) {
+    .input {
+    width: 70%;
+  }
+  
+  .home{
+    position: absolute;
+    right: 15px;
+    font-size: 25px;
+    top: 35px;
+  }
+
+}
+
+@media (max-width: 491px) {
+  .input {
+  width: 70%;
+  height: 20px;
+  margin-top: 9px;
+  
+}
+.search{
+  margin-left: -40px;
+}
+.home{
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  top: 42px;
+}
+
+.input_icon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left:100px;
+  top: 52%;
+  transform: translateY(-38%);
+}
+
+}
+  
+
+
+  

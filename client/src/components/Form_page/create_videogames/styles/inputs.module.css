@@ -1,0 +1,71 @@
+.container select option{
+background-color: rgba(255, 255, 255);
+color: #000;
+}
+
+.container select{
+    background-color: rgba(0, 0,0 ,0.2);
+    border: solid 1px white;
+    padding: 6px;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    background: transparent;
+    border-radius: 4px;
+    width: 280px;
+
+  }
+ .container  div{
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+     border: 1px solid rgb(255, 255, 255);
+     flex-direction: row;
+     color: #fff;
+     width: 280px;
+     height:50px;
+     gap: 2px;
+   }
+.container p{
+    display: flex;
+    position: relative;
+    margin: 2px 0px 0 1px;
+    justify-content: center;
+    height: 12px;
+    font-size: 10px;
+    background-color: rgb(164, 158, 255);
+    border-radius: 2px;
+    padding: 4px 22px 4px 2px;
+}
+ 
+   
+ .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+    font-size: 20px;
+ }
+
+   
+   
+ .container input, textarea {
+    background-color: rgb(0, 0, 0,0.4);
+    width: 280px;
+    height: 38px;
+    border-radius: 4px;
+    border: white solid 1px ;
+    color: #ffffff;
+  }
+
+.container h5{
+   color: red;
+   display: flex;
+   position: relative;
+   margin: 2px 0px 0 1px;
+   justify-content: left;
+   height: 12px;
+   font-size: 10px;
+   border-radius: 2px;
+   padding: 4px 22px 4px 2px;
+}

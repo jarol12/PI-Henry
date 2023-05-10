@@ -1,0 +1,108 @@
+.cards{
+    margin-top: 109px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:auto
+}
+.ord{
+    position: relative;
+}
+.add{
+    position: absolute;
+    left: 309px;
+    background-color: rgb(30, 173, 35);
+    box-shadow: inset 0 0 5px 1px rgb(5, 5, 5);
+    padding: 8px;
+  }
+
+.pag{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    height: 12vh;
+    background-color:rgb(21,21,21);
+
+
+}
+.of{
+    display: none;
+}
+
+.mean{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    top: 6.8rem;
+    width:100%;
+    height: 90px;
+    background-color:rgb(21,21,21);
+    
+}
+
+ .nav{
+    gap: 60px;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    justify-content: left;
+}
+.nav .add{
+    color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ .orderF .add{
+    color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav .add:hover{
+    color: #a29c9c;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    height: auto;
+    background-color:rgb(21,21,21);
+}
+
+.load{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 200px;
+
+}
+
+
+@media (max-width: 835px) {
+.add{
+    left: 15px;
+   
+  }
+}  
+@media (max-width: 488px) {
+    .cards h5{
+        display: none;
+    }
+    .add{
+        top: 100px;
+       
+      }
+
+ }  

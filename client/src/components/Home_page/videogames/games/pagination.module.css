@@ -1,0 +1,74 @@
+
+.none{
+    display: none;
+  }
+  .pag .point{
+    font-size: 20px;
+    cursor:text;
+    
+  
+  }
+  .pag .point:hover{
+    font-size: 20px;
+
+    cursor:text;
+    background-color: rgb(255, 255, 255);
+  }
+  .pag .ind{
+    border-radius: 50%;
+    background-color: #495867;
+  }
+  .pag .ind:hover{
+    border-radius: 50%;
+    background-color: #495867;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+  
+  } 
+  .prev{
+    display: flex;
+    background-color:#E9ECEF;
+    height: 52%;
+    width: 90px ;
+    border-radius: 5px 0 0px 5px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border: rgb(221, 221, 221) 1px solid;
+    cursor: pointer;
+  }
+  .next{
+    display: flex;
+    width: 50px;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .pag{
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    margin-right: 20px;
+  
+  }
+  
+  .pag button {
+    background-color: rgb(21,21,21);
+    font-size: 0.8em;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+  
+  }
+  
+  .pag button:hover {
+    background-color:#ffffff;
+    border-radius: 50%;
+    color:black ;
+  
+  }
+  
